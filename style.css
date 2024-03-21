@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: cornsilk;
+}
+#bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darkred;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+}
+#bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#bar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+#bar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+#bar.scrolled {
+    background-color: orangered;
+}
+#bar ul li a:hover {
+    color: yellow;
+}
+
