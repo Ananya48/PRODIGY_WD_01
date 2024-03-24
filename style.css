@@ -30,9 +30,10 @@ body {
     transition: color 0.3s;
 }
 #bar.scrolled {
-    background-color: orange;
+    background-color: orangered;
 }
 #bar ul li a:hover {
     color: yellow;
 }
+
 
